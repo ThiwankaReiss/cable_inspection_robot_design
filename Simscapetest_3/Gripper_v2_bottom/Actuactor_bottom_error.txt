@@ -1,0 +1,8 @@
+Constrained Instances: 'Teeth-1', 'Teeth-1', 'GripperFlatSurface-1', 'GripperFlatSurface-1'
+Constraint Name: Width1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Teeth-2', 'Teeth-2', 'GripperFlatSurface-1', 'GripperFlatSurface-1'
+Constraint Name: Width2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------

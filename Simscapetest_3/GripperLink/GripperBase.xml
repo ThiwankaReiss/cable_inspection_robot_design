@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/24/26||14:26:06" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="GripperBase" uid="GripperBase" version="137">
+<AssemblyFile name="GripperBase.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="wheel_insert-1" uid="wheel_insert-1" entityUid="wheel_insert*:*4mm_shaft">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.036500000000015249 0.017499999999967659 -0.0020000000000092435</Translation>
+</Transform>
+</Instance>
+<Instance name="Roll2-1" uid="Roll2-1" entityUid="Roll2*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>0.025000000000000463 0.017881070058874966 0.020000000000001478</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-1" uid="Worm Drive Motor JGY370-1" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 1 -6.9829626776862667e-15 1 3.4914813388431334e-15 0 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>-0.014999999999999031 0.040000000000001597 0.023000000000002886</Translation>
+</Transform>
+</Instance>
+<Instance name="TesthCover-1" uid="TesthCover-1" entityUid="TesthCover*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -9.7323600433565947e-14 0 -9.7323600433565922e-14 1 8.3384224031619644e-14 0 8.3384224031619631e-14 -1.0000000000000002</Rotation>
+<Translation>0.056999999999996186 0.036999999999998839 0.040999999999997774</Translation>
+</Transform>
+</Instance>
+<Instance name="pinionlock-1" uid="pinionlock-1" entityUid="pinionlock*:*Default">
+<Transform>
+<Rotation>1 0 4.5186077102243871e-14 4.5186077102243871e-14 0 -1 0 1 0</Rotation>
+<Translation>0.032000000000001 0.059999999999998256 0.005999999999999229</Translation>
+</Transform>
+</Instance>
+<Instance name="TesthCover-2" uid="TesthCover-2" entityUid="TesthCover*:*Default">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 0 1 0 6.9829626776862667e-15 0 -1</Rotation>
+<Translation>0.056999999999998469 0.0050000000000021486 0.0410000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="PinionMount-1" uid="PinionMount-1" entityUid="PinionMount*:*Default">
+<Transform>
+<Rotation>1 -1.5954678068236095e-16 4.1078251911130792e-14 4.1078251911130792e-14 0 -1 1.5954678068236378e-16 0.99999999999999989 0</Rotation>
+<Translation>0.018999999999999198 0.060000000000000636 0.0059999999999996168</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.025000000000000397 0.017881070058874959 0.020000000000001572</Position>
+<Axis>1 -1.5167988393074899e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Roll2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.035500000000002384 0.029999999999998916 0.005999999999998451</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>pinionlock-1</Uid>
+</InstancePath>
+<Position>0.0034999999999999962 0 0.030000000000000002</Position>
+<Axis>1.066665606710761e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.03550000000000117 0.056999999999998385 0.0059999999999992282</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>pinionlock-1</Uid>
+</InstancePath>
+<Position>0.0034999999999999962 0 0.0030000000000000027</Position>
+<Axis>1.066665606710761e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.029000000000000428 0.030000000000001137 0.0059999999999957865</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PinionMount-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999985 0 0.030000000000000006</Position>
+<Axis>-1.5630710170935489e-16 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.028999999999999325 0.05700000000000105 0.0059999999999996168</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PinionMount-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999985 0 0.0030000000000000027</Position>
+<Axis>-1.5630710170935489e-16 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.011000000000001366 0.049000000000001931 0.014000000000001789</Position>
+<Axis>1 -5.971785566050686e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>0.0090000000000000011 0.0235 0.0090000000000000011</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0085000000000009755 0.049000000000000377 0.013999999999999124</Position>
+<Axis>-1 1.9428902930943459e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>0.0090000000000000011 0.0235 0.0090000000000000011</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.050999999999999067 0.043000000000001037 0.0040000000000000036</Position>
+<Axis>9.7144514654693915e-14 -1 -8.3266726846880505e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>TesthCover-1</Uid>
+</InstancePath>
+<Position>0.0059999999999999984 -0.0060000000000000053 0.037000000000000005</Position>
+<Axis>-1.4456028966468762e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.056999999999996206 0.03700000000000192 0.0039999999999977831</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>TesthCover-1</Uid>
+</InstancePath>
+<Position>0 0 0.037000000000000005</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.050999999999999976 0.011000000000006005 0.0039999999999971725</Position>
+<Axis>3.4694469519528088e-15 -1 -4.6259292692704117e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>TesthCover-2</Uid>
+</InstancePath>
+<Position>0.0059999999999999984 -0.0059999999999999993 0.036999999999999998</Position>
+<Axis>-1.4456028966473392e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.056999999999998163 0.0050000000000023359 0.0040000000000012248</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>TesthCover-2</Uid>
+</InstancePath>
+<Position>0 0 0.036999999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.034000000000001335 0.021830127018921397 0.0039999999999976721</Position>
+<Axis>1 8.881784197003808e-13 2.4424906541760472e-13</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>wheel_insert-1</Uid>
+</InstancePath>
+<Position>0.0024999999999999953 0.0043301270189221933 0.0060000000000000001</Position>
+<Axis>-1 -1.7347234759768081e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>5.4817261840867104e-16 2.2204460492503131e-16 0.0040000000000012248</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel_insert-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.036499999999998728 0.017500000000000071 0.0039999999999996705</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel_insert-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base" uid="Base*:*Default" version="1228">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050898473502702817</Mass>
+<CenterOfMass>0.032669111959221842 0.025960945011796223 0.010844236349940702</CenterOfMass>
+<Inertia>2.6456542168302111e-05 3.2794292119525778e-05 4.3382991511974228e-05 -1.3699374708830697e-06 2.1102751693603723e-06 2.5116419855317855e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.59999999999999998" a="1"/>
+<Specular r="0.19411765477236581" g="0.18588236032747754" b="0.18000000715255737" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PinionMount" uid="PinionMount*:*Default" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PinionMount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0064939910396728728</Mass>
+<CenterOfMass>0.0034368225208602529 0.01487058299651961 0.016108669443210398</CenterOfMass>
+<Inertia>1.2960695787144688e-06 6.709594517970113e-07 6.9938288322491349e-07 5.4114813181164763e-09 -1.110095818294021e-09 3.934698150856486e-08</Inertia>
+</MassProperties>
+<GeometryFile name="PinionMount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Roll2" uid="Roll2*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Roll2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0084138448607707205</Mass>
+<CenterOfMass>0 0 0.015203755493407908</CenterOfMass>
+<Inertia>8.713110516108036e-07 8.713110516108036e-07 4.2346422338944026e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Roll2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TesthCover" uid="TesthCover*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TesthCover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.003499494193903828</Mass>
+<CenterOfMass>0 0 0.019924323811492627</CenterOfMass>
+<Inertia>4.8757330660614021e-07 4.8757330660614021e-07 1.1444985935594949e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TesthCover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.64313725490196072" g="0.61568627450980395" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.45019607843137249" g="0.43098039215686273" b="0.41999999999999998" a="1"/>
+<Specular r="0.03215686274509804" g="0.0307843137254902" b="0.029999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Worm Drive Motor JGY370" uid="Worm Drive Motor JGY370*:*Default" version="226">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Worm Drive Motor JGY370.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20000000000000001</Mass>
+<CenterOfMass>-0.0011539918768186806 0.011069032432102827 -0.01947737388199346</CenterOfMass>
+<Inertia>9.8155384137076611e-05 0.00010430158856210629 2.2367563479012071e-05 -3.1455682296466443e-07 -6.1400941408117297e-06 -1.5856377872091938e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Worm Drive Motor JGY370_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pinionlock" uid="pinionlock*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pinionlock.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00044055593377054263</Mass>
+<CenterOfMass>0.0034999999999999996 0.0010000000000000005 0.016500000000000001</CenterOfMass>
+<Inertia>3.5152276841375453e-08 3.6970195797222479e-08 2.1116229116940569e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pinionlock_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheel_insert" uid="wheel_insert*:*4mm_shaft" version="208">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wheel_insert.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00076670255013377259</Mass>
+<CenterOfMass>0 0 -0.0023104089432622659</CenterOfMass>
+<Inertia>2.5610092294014806e-08 2.5610092294014806e-08 8.4325910540365467e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wheel_insert_4mm_shaft_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

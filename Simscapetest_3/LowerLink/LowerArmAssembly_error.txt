@@ -1,0 +1,24 @@
+Constrained Instances: 'DummyBuckConverter-1', 'DummyBuckConverter-1', 'lowerLink-1', 'lowerLink-1'
+Constraint Name: Width1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBuckConverter-1', 'DummyBuckConverter-1', 'lowerLink-1', 'lowerLink-1'
+Constraint Name: Width2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBuckConverter-2', 'DummyBuckConverter-2', 'lowerLink-1', 'lowerLink-1'
+Constraint Name: Width3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBuckConverter-2', 'DummyBuckConverter-2', 'lowerLink-1', 'lowerLink-1'
+Constraint Name: Width4
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBattery-1', 'DummyBattery-1', 'lowerLink-1', 'lowerLink-1'
+Constraint Name: Width5
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBattery-1', 'DummyBattery-1', 'lowerLink-1', 'lowerLink-1'
+Constraint Name: Width6
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------

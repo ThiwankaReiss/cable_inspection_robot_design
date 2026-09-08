@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/22/26||22:09:27" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="AssemblyFull" uid="AssemblyFull" version="151">
+<AssemblyFile name="AssemblyFull.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="30degreeinclineAssembly-2" uid="30degreeinclineAssembly-2" entityUid="30degreeinclineAssembly" rigid="true">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 0 1 0 6.9829626776862667e-15 0 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="SuppoertBase-2" uid="SuppoertBase-2" entityUid="SuppoertBase*:*Default">
+<Transform>
+<Rotation>1 1.043207257363093e-14 -1.0432072573630827e-14 1.0432072573630935e-14 -1 5.6655388976486561e-16 -1.0432072573630821e-14 -5.6655388976497447e-16 -1</Rotation>
+<Translation>2.8367933002648726e-14 1.7493713156445645 -0.010000000000001619</Translation>
+</Transform>
+</Instance>
+<Instance name="SuppoertBase-1" uid="SuppoertBase-1" entityUid="SuppoertBase*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 1.2246467991473515e-16 0 -1.2246467991473515e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable-1" uid="Cable-1" entityUid="Cable*:*50_long">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.52000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable-4" uid="Cable-4" entityUid="Cable*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.8356424099160001e-14 1.7493713156445645 -1.5300000000000025</Translation>
+</Transform>
+</Instance>
+<Instance name="30DegreeeAngle-1" uid="30DegreeeAngle-1" entityUid="30DegreeeAngle*:*down">
+<Transform>
+<Rotation>-1 -1.0432072573630827e-14 -1.3005922586277752e-14 1.3005922586277749e-14 4.4408920985013026e-16 -1 1.0432072573630834e-14 -1 -4.4408920984999468e-16</Rotation>
+<Translation>1.2343192698636656e-14 1.7493713156445652 -1.5350000000000017</Translation>
+</Transform>
+</Instance>
+<Instance name="30DegreeeAngle-2" uid="30DegreeeAngle-2" entityUid="30DegreeeAngle*:*Default">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 6.9829626776862667e-15 2.449293598294703e-16 -1 0 -1 -2.449293598294703e-16</Rotation>
+<Translation>0 0 -0.52500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable-3" uid="Cable-3" entityUid="Cable*:*100_long">
+<Transform>
+<Rotation>1 -1.3704669530816277e-14 6.0474230725549108e-15 -1.2089556773672843e-14 -0.50000000000000078 0.86602540378443826 -8.8448804278799933e-15 -0.86602540378443826 -0.50000000000000078</Rotation>
+<Translation>0 0.0036602540378444237 -0.53866025403784445</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="spur gear_am-1" uid="spur gear_am-1" entityUid="spur gear_am*:*Metric - Spur gear 1.5M 20T 20PA 8FW ---S20N75H50L6N">
+<Transform>
+<Rotation>-1 4.4646498498831622e-14 -1.4855873046364714e-14 -4.2371317951400819e-14 -0.99173423233298763 -0.1283090504169514 -2.0461627678099763e-14 -0.1283090504169514 0.99173423233298763</Rotation>
+<Translation>0.026999999999999219 0.11071001232207772 0.5837223029934171</Translation>
+</Transform>
+</Instance>
+<Instance name="GripperBase-1" uid="GripperBase-1" entityUid="GripperBase" rigid="true">
+<Transform>
+<Rotation>-0.99999999999999989 6.1201044232461754e-15 3.524958103184872e-15 -7.156276439490572e-15 -0.86602540378443804 -0.50000000000000078 0 -0.50000000000000078 0.86602540378443815</Rotation>
+<Translation>0.037999999999998917 0.15685102847343965 0.58380371870637848</Translation>
+</Transform>
+<Instance name="PinionMount-1" uid="PinionMount-1" entityUid="PinionMount*:*Default">
+<Transform>
+<Rotation>1 -1.6465283008318366e-16 4.1183420256603128e-14 4.1183420256603128e-14 -2.2204460492503151e-16 -1 1.6465283008319281e-16 1 -2.2204460492502473e-16</Rotation>
+<Translation>0.018999999999999202 0.060000000000000608 0.0059999999999996168</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-1" uid="Worm Drive Motor JGY370-1" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>-3.3863129933707962e-15 1 -6.9778566282854376e-15 1 3.3863129933707958e-15 0 0 -6.9778566282854376e-15 -1</Rotation>
+<Translation>-0.014999999999999021 0.040000000000001645 0.023000000000002796</Translation>
+</Transform>
+</Instance>
+<Instance name="TesthCover-2" uid="TesthCover-2" entityUid="TesthCover*:*Default">
+<Transform>
+<Rotation>-1 -1.0516834547233827e-16 -6.9778566282854376e-15 -1.0516834547233798e-16 1 0 6.9778566282854376e-15 0 -1</Rotation>
+<Translation>0.056999999999998455 0.0050000000000021694 0.041000000000000814</Translation>
+</Transform>
+</Instance>
+<Instance name="Roll2-1" uid="Roll2-1" entityUid="Roll2*:*Default">
+<Transform>
+<Rotation>-3.4965873882439632e-15 1.0516834547233762e-16 0.99999999999999989 0 1 -1.0516834547233741e-16 -0.99999999999999989 0 -3.4965873882439632e-15</Rotation>
+<Translation>0.025000000000000459 0.017881070058874959 0.020000000000001461</Translation>
+</Transform>
+</Instance>
+<Instance name="pinionlock-1" uid="pinionlock-1" entityUid="pinionlock*:*Default">
+<Transform>
+<Rotation>1 0 4.52912454477162e-14 4.5291245447716207e-14 0 -0.99999999999999989 0 0.99999999999999989 0</Rotation>
+<Translation>0.032000000000001 0.059999999999998277 0.0059999999999991727</Translation>
+</Transform>
+</Instance>
+<Instance name="TesthCover-1" uid="TesthCover-1" entityUid="TesthCover*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 -9.7428768779038251e-14 0 -9.7428768779038238e-14 1 8.3377749149349256e-14 0 8.3377749149349269e-14 -0.99999999999999989</Rotation>
+<Translation>0.056999999999996172 0.036999999999998867 0.04099999999999776</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel_insert-1" uid="wheel_insert-1" entityUid="wheel_insert*:*4mm_shaft">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.036500000000015242 0.017499999999967653 -0.0020000000000092721</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GripperBase-2" uid="GripperBase-2" entityUid="GripperBase" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 -2.7174443251176683e-15 9.6173069508154185e-15 7.1560155533428177e-15 0.86602540378443793 -0.500000000000001 -6.9735883734267645e-15 0.500000000000001 0.86602540378443782</Rotation>
+<Translation>-0.037999999999997855 0.44215057807934616 0.74852149047102889</Translation>
+</Transform>
+<Instance name="PinionMount-1" uid="PinionMount-1" entityUid="PinionMount*:*Default">
+<Transform>
+<Rotation>1 -1.5954126790298069e-16 4.1071304658371157e-14 4.1071304658371164e-14 -1.1102230246251565e-16 -0.99999999999999989 1.5954126790298527e-16 0.99999999999999989 -1.110223024625091e-16</Rotation>
+<Translation>0.018999999999999191 0.060000000000000719 0.0059999999999995612</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-1" uid="Worm Drive Motor JGY370-1" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>-3.4984285916027593e-15 1 -6.982968190465638e-15 1 3.4984285916027589e-15 0 0 -6.982968190465638e-15 -1</Rotation>
+<Translation>-0.014999999999999028 0.040000000000001701 0.023000000000002907</Translation>
+</Transform>
+</Instance>
+<Instance name="TesthCover-2" uid="TesthCover-2" entityUid="TesthCover*:*Default">
+<Transform>
+<Rotation>-1 0 -6.982968190465638e-15 0 1 0 6.982968190465638e-15 0 -1</Rotation>
+<Translation>0.056999999999998455 0.0050000000000022249 0.041000000000000703</Translation>
+</Transform>
+</Instance>
+<Instance name="Roll2-1" uid="Roll2-1" entityUid="Roll2*:*Default">
+<Transform>
+<Rotation>-3.4914758260637604e-15 0 1 0 1 0 -1 0 -3.4914758260637604e-15</Rotation>
+<Translation>0.025000000000000452 0.01788107005887507 0.020000000000001406</Translation>
+</Transform>
+</Instance>
+<Instance name="pinionlock-1" uid="pinionlock-1" entityUid="pinionlock*:*Default">
+<Transform>
+<Rotation>1 0 4.5179129849484243e-14 4.5179129849484243e-14 0 -1 0 1 0</Rotation>
+<Translation>0.032000000000000986 0.059999999999998277 0.0059999999999991172</Translation>
+</Transform>
+</Instance>
+<Instance name="TesthCover-1" uid="TesthCover-1" entityUid="TesthCover*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 -9.7316653180806287e-14 0 -9.7316653180806275e-14 1 8.3266726846886766e-14 0 8.3266726846886778e-14 -0.99999999999999989</Rotation>
+<Translation>0.056999999999996172 0.036999999999998923 0.040999999999997816</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel_insert-1" uid="wheel_insert-1" entityUid="wheel_insert*:*4mm_shaft">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.036500000000015229 0.017499999999967764 -0.0020000000000092721</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LowerArmAssembly-2" uid="LowerArmAssembly-2" entityUid="LowerArmAssembly" rigid="true">
+<Transform>
+<Rotation>0.20597238169251789 0.00087082369443890195 0.97855741765417359 0.84956192304429146 -0.49641263445624523 -0.17837890925077329 0.48561292908364523 0.86808625033363096 -0.10298711127369012</Rotation>
+<Translation>-0.067211494264627081 0.35618514167109155 0.51655584282397859</Translation>
+</Transform>
+<Instance name="lowerLink-1" uid="lowerLink-1" grounded="true" entityUid="lowerLink*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038872654117975025 0.036122614735006664 0.060474028497561866</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-1" uid="Worm Drive Motor JGY370-1" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>-2.7755575615628914e-16 0 1 -1 0 0 0 -0.99999999999999978 0</Rotation>
+<Translation>0.21687265411797541 0.032322614735003141 0.061474028497561589</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCoverTop-1" uid="MotorCoverTop-1" entityUid="MotorCoverTop*:*Default">
+<Transform>
+<Rotation>-3.8857805861880469e-16 1 0 -1 -3.8857805861880504e-16 0 0 0 1</Rotation>
+<Translation>0.18387265411797504 0.050322614735002213 0.063174028497561499</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-5" uid="Worm Drive Motor JGY370-5" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>1.0103029524088925e-14 0 -0.99999999999999978 -0.99999999999999989 -3.4833247397614286e-15 -1.0103029524088923e-14 -3.4833247397614286e-15 0.99999999999999989 0</Rotation>
+<Translation>-0.13912734588202647 0.030817494326762895 0.059474028497564779</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBuckConverter-1" uid="DummyBuckConverter-1" entityUid="DummyBuckConverter*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11537265411797504 0.032122614735006771 0.080474028497561856</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBuckConverter-2" uid="DummyBuckConverter-2" entityUid="DummyBuckConverter*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.037627345882024987 0.032122614735006716 0.080474028497561856</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBattery-1" uid="DummyBattery-1" entityUid="DummyBattery*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038872654117975136 0.032122614735006716 0.080474028497561856</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCoverTop-4" uid="MotorCoverTop-4" entityUid="MotorCoverTop*:*Default">
+<Transform>
+<Rotation>1.021405182655144e-14 -1 7.0013439490423926e-15 -0.99999999999999989 -1.0214051826551442e-14 0 0 -7.0013439490423934e-15 -0.99999999999999989</Rotation>
+<Translation>-0.10612734588202644 0.04881749432676441 0.057774028497563773</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="spur gear_am-2" uid="spur gear_am-2" entityUid="spur gear_am*:*Metric - Spur gear 1.5M 20T 20PA 8FW ---S20N75H50L6N">
+<Transform>
+<Rotation>1 -4.6494152597765191e-14 1.0239057604857002e-14 4.2871862786891792e-14 0.78592240132151148 -0.61832514027898722 2.0701398687086158e-14 0.61832514027898722 0.78592240132151148</Rotation>
+<Translation>-0.027000000000003247 0.46529159423072436 0.78844007475807043</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm-1" uid="Arm-1" entityUid="Arm" rigid="true">
+<Transform>
+<Rotation>-0.97855741765417226 0.20597422254738074 -3.4972025275692431e-15 0.17837890925077937 0.84745558275021171 0.50000000000000122 0.10298711127369359 0.48927870882708668 -0.86602540378443782</Rotation>
+<Translation>0.0014999999999823141 0.14994558390721768 0.56076429954395057</Translation>
+</Transform>
+<Instance name="LinkGripperToArm-1" uid="LinkGripperToArm-1" entityUid="LinkGripperToArm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_25GA370-20.4x.STEP-1" uid="Motor_25GA370-20.4x.STEP-1" entityUid="Motor_25GA370-20.4x.STEP" rigid="true">
+<Transform>
+<Rotation>0 1.2490009027033011e-16 0.99999999999999989 0 -0.99999999999999989 0 0.99999999999999978 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="M2.5 x 16.STEP-1" uid="M2.5 x 16.STEP-1" grounded="true" entityUid="M2.5 x 16.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00039999999999995595 0.008499999999999952 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M2.5 x 16.STEP-2" uid="M2.5 x 16.STEP-2" grounded="true" entityUid="M2.5 x 16.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00040000000000001146 -0.0085000000000000075 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_25GA370-20.4x.STEP-1" uid="Motor_25GA370-20.4x.STEP-1" grounded="true" entityUid="Motor_25GA370-20.4x.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LinkGripperToArm-3" uid="LinkGripperToArm-3" entityUid="LinkGripperToArm*:*cover_top">
+<Transform>
+<Rotation>-1 0 0 0 -1.0000000000000002 -2.2204460492503131e-16 0 -2.7755575615628914e-16 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Arm-2" uid="Arm-2" entityUid="Arm" rigid="true">
+<Transform>
+<Rotation>0.97855741765417215 -0.20597422254738076 -3.524958103184872e-15 -0.17837890925077945 -0.84745558275021193 0.50000000000000111 -0.10298711127369353 -0.48927870882708646 -0.86602540378443837</Rotation>
+<Translation>-0.0014999999999869625 0.46555602264551593 0.74298207130858285</Translation>
+</Transform>
+<Instance name="LinkGripperToArm-1" uid="LinkGripperToArm-1" entityUid="LinkGripperToArm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_25GA370-20.4x.STEP-1" uid="Motor_25GA370-20.4x.STEP-1" entityUid="Motor_25GA370-20.4x.STEP" rigid="true">
+<Transform>
+<Rotation>0 0 0.99999999999999978 0 -1 1.0408340855860843e-16 1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="M2.5 x 16.STEP-1" uid="M2.5 x 16.STEP-1" grounded="true" entityUid="M2.5 x 16.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00040000000000001146 0.008499999999999952 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M2.5 x 16.STEP-2" uid="M2.5 x 16.STEP-2" grounded="true" entityUid="M2.5 x 16.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00040000000000001146 -0.0085000000000000631 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_25GA370-20.4x.STEP-1" uid="Motor_25GA370-20.4x.STEP-1" grounded="true" entityUid="Motor_25GA370-20.4x.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LinkGripperToArm-3" uid="LinkGripperToArm-3" entityUid="LinkGripperToArm*:*cover_top">
+<Transform>
+<Rotation>-0.99999999999999978 0 0 0 -0.99999999999999978 -1.6653345369377348e-16 0 -1.6653345369377348e-16 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RackTop-2" uid="RackTop-2" entityUid="RackTop" rigid="true">
+<Transform>
+<Rotation>-9.6450625264310459e-15 -3.0782668081208466e-15 0.99999999999999989 0.50000000000000056 0.86602540378443826 7.4883885186746187e-15 -0.86602540378443826 0.50000000000000056 -6.8137357649181747e-15</Rotation>
+<Translation>-0.0084846828259442387 0.42878660615911324 0.79848732560366187</Translation>
+</Transform>
+<Instance name="Roller1-1" uid="Roller1-1" entityUid="Roller1*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 -0.99999999999999989 6.9829626776862651e-15 0 -6.9829626776862651e-15 -0.99999999999999978</Rotation>
+<Translation>-0.034274149775231799 0.0075906216120663617 0.023484682825946537</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-1" uid="rack spur rectangular_am-1" grounded="true" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 1.5M 20PA 8FW 8PH 100L---SAll">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039274149775231915 0.0035906216120664691 -0.010515317174053506</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RackTop-1" uid="RackTop-1" entityUid="RackTop" rigid="true">
+<Transform>
+<Rotation>-3.6290415117434804e-15 6.6890937233665697e-15 -0.99999999999999978 0.50000000000000078 -0.86602540378443815 -7.6074458486022262e-15 -0.86602540378443804 -0.50000000000000078 -2.0170472112515432e-16</Rotation>
+<Translation>0.0084846828259458017 0.12922766387352896 0.60483003289355441</Translation>
+</Transform>
+<Instance name="Roller1-1" uid="Roller1-1" entityUid="Roller1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.99999999999999989 6.9829626776862636e-15 0 -6.9829626776862636e-15 -0.99999999999999989</Rotation>
+<Translation>-0.034274149775231744 0.0075906216120664172 0.023484682825946533</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-1" uid="rack spur rectangular_am-1" grounded="true" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 1.5M 20PA 8FW 8PH 100L---SAll">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039274149775231748 0.0035906216120665246 -0.010515317174053504</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AssemblyFull</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AssemblyFull</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>30degreeinclineAssembly-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AssemblyFull</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LowerArmAssembly-2</Uid>
+<Uid>MotorCoverTop-4</Uid>
+</InstancePath>
+<Position>0.017999999999998184 0.033000000000003193 -0.027199999999998198</Position>
+<Axis>1.27675647831893e-15 -6.4531713306337224e-16 0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm-1</Uid>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0.014499999999999999 0 0.10999999999999993</Position>
+<Axis>1 -1.3183898417423734e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LowerArmAssembly-2</Uid>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>0.017999999999998129 0.033000000000003138 -0.027199999999998198</Position>
+<Axis>1.3183898417423734e-15 -6.1756155744774333e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm-2</Uid>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0.014500000000000013 0 0.11000000000000004</Position>
+<Axis>1 -1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm-1</Uid>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+</InstancePath>
+<Position>-0.0025000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>GripperBase-1</Uid>
+<Uid>wheel_insert-1</Uid>
+</InstancePath>
+<Position>0 0 -0.012000000000000011</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm-2</Uid>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+</InstancePath>
+<Position>-0.0025000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>GripperBase-2</Uid>
+<Uid>wheel_insert-1</Uid>
+</InstancePath>
+<Position>0 0 -0.011999999999999955</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-1</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0080000000000007253 0.016999999999999238 2.1649348980190553e-15</Position>
+<Axis>1.2952061026038863e-16 1 -2.6090241078691179e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RackTop-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0079999999999999967</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-1</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0079999999999996636 0.01899999999999924 1.5543122344752192e-15</Position>
+<Axis>0.99999999999999989 2.5431228031352603e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RackTop-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0.099999999999999978 0 -0.010999999999999996</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-2</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0080000000000007114 0.016999999999999349 2.2204460492503131e-15</Position>
+<Axis>0 1 -2.6645352591003757e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RackTop-2</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.0080000000000000002</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-2</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0079999999999996567 0.01899999999999924 1.4432899320127035e-15</Position>
+<Axis>0.99999999999999989 1.4219668208156336e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RackTop-2</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0.099999999999999978 1.1102230246251565e-16 -0.010999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>GripperBase-1</Uid>
+<Uid>PinionMount-1</Uid>
+</InstancePath>
+<Position>0.0060000000000000001 0.017000000000000015 0.019999999999999962</Position>
+<Axis>0.99999999999999989 1.1564823173178609e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0.014000000000000002 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>GripperBase-2</Uid>
+<Uid>PinionMount-1</Uid>
+</InstancePath>
+<Position>0.0059999999999999984 0.017000000000000015 0.020000000000000018</Position>
+<Axis>0.99999999999999989 1.1564823173179082e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>spur gear_am-2</Uid>
+</InstancePath>
+<Position>0.014 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly-2</Uid>
+<Uid>30DegreeeAngle-2</Uid>
+</InstancePath>
+<Position>0 0.002165063509461107 0.0012500000000000026</Position>
+<Axis>0 0.86602540378443826 0.50000000000000111</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-1</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000001803</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly-2</Uid>
+<Uid>30DegreeeAngle-2</Uid>
+</InstancePath>
+<Position>0 0.002165063509461107 0.0012500000000000026</Position>
+<Axis>0 0.86602540378443826 0.50000000000000111</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-2</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.030000000000001803</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly-2</Uid>
+<Uid>30DegreeeAngle-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-2</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.038000000000000006 1.1102230246251565e-16 0</Position>
+<Axis>0.99999999999999989 -1.5862713669035034e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly-2</Uid>
+<Uid>30DegreeeAngle-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GripperBase-1</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.038000000000000013 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="RackPinionMate3">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>RackTop-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 1.2143064331837603e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="RackPinionMate4">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>RackTop-2</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 1.214306433183765e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>spur gear_am-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="30degreeinclineAssembly" uid="30degreeinclineAssembly" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="30degreeinclineAssembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GripperBase" uid="GripperBase" version="137">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="GripperBase.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="LowerArmAssembly" uid="LowerArmAssembly" version="491">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="LowerArmAssembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Arm" uid="Arm" version="127">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Arm.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Motor_25GA370-20.4x.STEP" uid="Motor_25GA370-20.4x.STEP" version="337">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Motor_25GA370-20.4x.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="RackTop" uid="RackTop" version="110">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="RackTop.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="30DegreeeAngle" uid="30DegreeeAngle*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="30DegreeeAngle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067740591593029942</Mass>
+<CenterOfMass>0 0.0071140824020411867 -0.0013105710058006013</CenterOfMass>
+<Inertia>7.7407829132468007e-07 4.0326863708176575e-07 7.6749708599014125e-07 4.9872171197195421e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="30DegreeeAngle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="30DegreeeAngle" uid="30DegreeeAngle*:*down" version="164">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="30DegreeeAngle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0065318325326267357</Mass>
+<CenterOfMass>2.8180288069120139e-08 0.0018783908806351694 0.0080258287599802285</CenterOfMass>
+<Inertia>6.7191864935737185e-07 6.0944440422091188e-07 4.550124078408694e-07 -1.5472972301551249e-07 -6.958961551160522e-13 -2.7641219612986464e-13</Inertia>
+</MassProperties>
+<GeometryFile name="30DegreeeAngle_down_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base" uid="Base*:*Default" version="1228">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050898473502701824</Mass>
+<CenterOfMass>0.032669111959221959 0.025960945011794981 0.010844236349940783</CenterOfMass>
+<Inertia>2.6456542168300495e-05 3.2794292119524077e-05 4.3382991511971125e-05 -1.3699374708835959e-06 2.1102751693604786e-06 2.5116419855319083e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.59999999999999998" a="1"/>
+<Specular r="0.19411765477236581" g="0.18588236032747754" b="0.18000000715255737" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable" uid="Cable*:*100_long" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.35342917352885173</Mass>
+<CenterOfMass>0 0 1</CenterOfMass>
+<Inertia>0.11781469460736997 0.11781469460736997 9.940195505498956e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable_100_long_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable" uid="Cable*:*50_long" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.088357293382212931</Mass>
+<CenterOfMass>0 0 0.25</CenterOfMass>
+<Inertia>0.0018420194699009565 0.0018420194699009565 2.485048876374739e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable_50_long_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable" uid="Cable*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26507188014663874</Mass>
+<CenterOfMass>0 0 0.75000000000000011</CenterOfMass>
+<Inertia>0.049704705100809307 0.049704705100809307 7.4551466291242153e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DummyBattery" uid="DummyBattery*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DummyBattery.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23999999999999999</Mass>
+<CenterOfMass>0 0 -0.02</CenterOfMass>
+<Inertia>5.2480000000000013e-05 0.00013568000000000003 0.00012416000000000003 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DummyBattery_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DummyBuckConverter" uid="DummyBuckConverter*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DummyBuckConverter.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.080000000000000002</Mass>
+<CenterOfMass>0 0 -0.02</CenterOfMass>
+<Inertia>1.7493333333333334e-05 4.5226666666666672e-05 4.1386666666666675e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DummyBuckConverter_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LinkGripperToArm" uid="LinkGripperToArm*:*Default" version="324">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LinkGripperToArm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025190797004098084</Mass>
+<CenterOfMass>-0.0018579703164577212 0 0.081565913770679635</CenterOfMass>
+<Inertia>3.453055554606346e-05 3.3911325300080256e-05 4.4900834679719879e-06 0 -3.5582146876204496e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="LinkGripperToArm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.34862745098039216" g="0.34862745098039216" b="0.34862745098039216" a="1"/>
+<Specular r="0.024901960784313726" g="0.024901960784313726" b="0.024901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LinkGripperToArm" uid="LinkGripperToArm*:*cover_top" version="305">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LinkGripperToArm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0088236323175037122</Mass>
+<CenterOfMass>-0.0076647862828579478 0 0.038918453088406697</CenterOfMass>
+<Inertia>6.40743730998656e-06 5.6101161987899061e-06 1.1660879560309786e-06 0 -8.1702345941210021e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="LinkGripperToArm_cover_top_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.34862745098039216" g="0.34862745098039216" b="0.34862745098039216" a="1"/>
+<Specular r="0.024901960784313726" g="0.024901960784313726" b="0.024901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M2.5 x 16.STEP" uid="M2.5 x 16.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="M2.5 x 16.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010950901948750028</Mass>
+<CenterOfMass>0.0076074771167885464 0 0</CenterOfMass>
+<Inertia>1.544691581842117e-10 3.4856932670026607e-09 3.4856526283186692e-09 -2.269016303581127e-15 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M2.5 x 16.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorCoverTop" uid="MotorCoverTop*:*Default" version="274">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorCoverTop.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011430225692314066</Mass>
+<CenterOfMass>0.018318466152636517 0.028161474539223647 -0.016839353660716577</CenterOfMass>
+<Inertia>3.945216781416795e-06 3.1828473446405226e-06 5.2850726323196087e-06 -1.7789751962329727e-07 -1.543184083430281e-08 9.8871569929328827e-08</Inertia>
+</MassProperties>
+<GeometryFile name="MotorCoverTop_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.64313725490196072" g="0.61568627450980395" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.45019607843137249" g="0.43098039215686273" b="0.41999999999999998" a="1"/>
+<Specular r="0.03215686274509804" g="0.0307843137254902" b="0.029999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_25GA370-20.4x.STEP" uid="Motor_25GA370-20.4x.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor_25GA370-20.4x.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023190149178394331</Mass>
+<CenterOfMass>0.024354371081160765 -7.2153202015732123e-07 -4.0252715890884008e-13</CenterOfMass>
+<Inertia>1.72501495461279e-06 5.7453707860678929e-06 5.7254899181999359e-06 8.1391735102682293e-10 0 -5.4171285993018152e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_25GA370-20.4x.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PinionMount" uid="PinionMount*:*Default" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PinionMount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0064939910396728728</Mass>
+<CenterOfMass>0.0034368225208602529 0.01487058299651961 0.016108669443210398</CenterOfMass>
+<Inertia>1.2960695787144688e-06 6.709594517970113e-07 6.9938288322491349e-07 5.4114813181164755e-09 -1.110095818294021e-09 3.934698150856486e-08</Inertia>
+</MassProperties>
+<GeometryFile name="PinionMount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Roll2" uid="Roll2*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Roll2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0084138448607707205</Mass>
+<CenterOfMass>0 0 0.015203755493407908</CenterOfMass>
+<Inertia>8.713110516108036e-07 8.713110516108036e-07 4.2346422338944026e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Roll2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Roller1" uid="Roller1*:*Default" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Roller1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.002142958888829938</Mass>
+<CenterOfMass>0 0 0.016941176470588237</CenterOfMass>
+<Inertia>2.1891316816703635e-07 2.1891316816703635e-07 3.2695880105309719e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Roller1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SuppoertBase" uid="SuppoertBase*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SuppoertBase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18358682069415352</Mass>
+<CenterOfMass>0 0 0.012165775401069516</CenterOfMass>
+<Inertia>0.00011507151411586927 0.00011507151411586924 0.00020902329011887323 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SuppoertBase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TesthCover" uid="TesthCover*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TesthCover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.003499494193903828</Mass>
+<CenterOfMass>0 0 0.019924323811492627</CenterOfMass>
+<Inertia>4.8757330660614032e-07 4.8757330660614042e-07 1.1444985935594949e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TesthCover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.64313725490196072" g="0.61568627450980395" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.45019607843137249" g="0.43098039215686273" b="0.41999999999999998" a="1"/>
+<Specular r="0.03215686274509804" g="0.0307843137254902" b="0.029999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Worm Drive Motor JGY370" uid="Worm Drive Motor JGY370*:*Default" version="226">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Worm Drive Motor JGY370.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20000000000000001</Mass>
+<CenterOfMass>-0.0011539918768186806 0.011069032432102827 -0.01947737388199346</CenterOfMass>
+<Inertia>9.8155384137076611e-05 0.00010430158856210629 2.2367563479012071e-05 -3.1455682296466443e-07 -6.1400941408117297e-06 -1.5856377872091938e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Worm Drive Motor JGY370_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lowerLink" uid="lowerLink*:*Default" version="523">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lowerLink.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.089400377435666298</Mass>
+<CenterOfMass>0 -0.0042938390675325835 -5.0740261660978033e-05</CenterOfMass>
+<Inertia>4.7678246961645937e-05 0.00075109487541593863 0.00076535470237174268 2.0595066206052088e-07 1.0765817781982197e-05 -1.059866944215562e-06</Inertia>
+</MassProperties>
+<GeometryFile name="lowerLink_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pinionlock" uid="pinionlock*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pinionlock.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00044055593377054263</Mass>
+<CenterOfMass>0.0034999999999999996 0.0010000000000000005 0.016500000000000001</CenterOfMass>
+<Inertia>3.5152276841375453e-08 3.6970195797222479e-08 2.1116229116940569e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pinionlock_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rack spur rectangular_am" uid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 1.5M 20PA 8FW 8PH 100L---SAll" version="2221">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rack spur rectangular_am.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.037444648504884659</Mass>
+<CenterOfMass>0.012216073149211139 0.0013657995682224142 0.012276047435885116</CenterOfMass>
+<Inertia>2.0980177136770518e-05 3.7546995525331797e-05 3.080081835217957e-05 -2.7739970055389832e-06 4.9587277322734196e-06 -2.4461526174680586e-07</Inertia>
+</MassProperties>
+<GeometryFile name="rack spur rectangular_am_Metric - Rack-spur - rectangular 1.5M 20PA 8FW 8PH 100L---SAll_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="1" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="1" a="1"/>
+<Specular r="0.22588236191693473" g="0.22588236191693473" b="0.30000001192092896" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spur gear_am" uid="spur gear_am*:*Metric - Spur gear 1.5M 20T 20PA 8FW ---S20N75H50L6N" version="1739">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spur gear_am.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061417944852880987</Mass>
+<CenterOfMass>0.0046206566668982206 0 0</CenterOfMass>
+<Inertia>6.6731336194688969e-07 3.8945998001289065e-07 3.8945998001289007e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="spur gear_am_Metric - Spur gear 1.5M 20T 20PA 8FW ---S20N75H50L6N_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheel_insert" uid="wheel_insert*:*4mm_shaft" version="208">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wheel_insert.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00076670255013377259</Mass>
+<CenterOfMass>0 0 -0.0023104089432622659</CenterOfMass>
+<Inertia>2.5610092294014806e-08 2.5610092294014806e-08 8.4325910540365467e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wheel_insert_4mm_shaft_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

@@ -1,0 +1,32 @@
+Constrained Instances: 'DummyBattery-1', 'DummyBattery-1', 'lowerLink-2', 'lowerLink-2'
+Constraint Name: Width1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBattery-1', 'DummyBattery-1', 'lowerLink-2', 'lowerLink-2'
+Constraint Name: Width2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBuckConverter-2', 'DummyBuckConverter-2', 'lowerLink-2', 'lowerLink-2'
+Constraint Name: Width5
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBuckConverter-2', 'DummyBuckConverter-2', 'lowerLink-2', 'lowerLink-2'
+Constraint Name: Width6
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBuckConverter-3', 'DummyBuckConverter-3', 'lowerLink-2', 'lowerLink-2'
+Constraint Name: Width7
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'DummyBuckConverter-3', 'DummyBuckConverter-3', 'lowerLink-2', 'lowerLink-2'
+Constraint Name: Width8
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'GriperAssembly-3/Rack-2', 'spur gear_am-4'
+Constraint Name: RackPinionMate7
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'GriperAssembly-4/Rack-2', 'spur gear_am-3'
+Constraint Name: RackPinionMate9
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

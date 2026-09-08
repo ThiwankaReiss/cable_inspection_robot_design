@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/24/26||13:09:21" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Arm" uid="Arm" version="128">
+<AssemblyFile name="Arm.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="LinkGripperToArm-1" uid="LinkGripperToArm-1" entityUid="LinkGripperToArm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_25GA370-20.4x.STEP-1" uid="Motor_25GA370-20.4x.STEP-1" entityUid="Motor_25GA370-20.4x.STEP" rigid="true">
+<Transform>
+<Rotation>0 1.1102230246251565e-16 1.0000000000000002 0 -1.0000000000000002 1.1102230246251565e-16 1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="M2.5 x 16.STEP-1" uid="M2.5 x 16.STEP-1" grounded="true" entityUid="M2.5 x 16.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00040000000000000002 0.0085000000000000041 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_25GA370-20.4x.STEP-1" uid="Motor_25GA370-20.4x.STEP-1" grounded="true" entityUid="Motor_25GA370-20.4x.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M2.5 x 16.STEP-2" uid="M2.5 x 16.STEP-2" grounded="true" entityUid="M2.5 x 16.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00040000000000000002 -0.0085000000000000041 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="LinkGripperToArm-3" uid="LinkGripperToArm-3" entityUid="LinkGripperToArm*:*cover_top">
+<Transform>
+<Rotation>-1 0 0 0 -1.0000000000000002 -2.2204460492503131e-16 0 -2.2204460492503131e-16 1.0000000000000002</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 0.017499999999999998 0.076999999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 0.017499999999999991 0.076999999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 -0.017499999999999998 0.042999999999999997</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm</Uid>
+</InstancePath>
+<Position>0 -0.017500000000000002 0.042999999999999997</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 0 -0.002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+</InstancePath>
+<Position>-0.0025000000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>-0.0085000000000000006 0 -0.002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0085000000000000041</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+<Uid>Motor_25GA370-20.4x.STEP-1</Uid>
+</InstancePath>
+<Position>0 0.0035000000000000018 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 0.017499999999999998 0.076999999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-3</Uid>
+</InstancePath>
+<Position>0 -0.017500000000000005 0.077000000000000027</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-1</Uid>
+</InstancePath>
+<Position>0 -0.017499999999999998 0.076999999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LinkGripperToArm-3</Uid>
+</InstancePath>
+<Position>0 0.017500000000000005 0.077000000000000027</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Motor_25GA370-20.4x.STEP" uid="Motor_25GA370-20.4x.STEP" version="353">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Motor_25GA370-20.4x.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="LinkGripperToArm" uid="LinkGripperToArm*:*Default" version="324">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LinkGripperToArm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025190797004098087</Mass>
+<CenterOfMass>-0.0018579703164577209 0 0.081565913770679621</CenterOfMass>
+<Inertia>3.4530555546063467e-05 3.3911325300080263e-05 4.4900834679719871e-06 0 -3.5582146876204479e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="LinkGripperToArm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.34862745098039216" g="0.34862745098039216" b="0.34862745098039216" a="1"/>
+<Specular r="0.024901960784313726" g="0.024901960784313726" b="0.024901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LinkGripperToArm" uid="LinkGripperToArm*:*cover_top" version="305">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LinkGripperToArm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0088236323175037105</Mass>
+<CenterOfMass>-0.0076647862828579478 0 0.03891845308840669</CenterOfMass>
+<Inertia>6.4074373099865592e-06 5.6101161987899052e-06 1.1660879560309788e-06 0 -8.1702345941210034e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="LinkGripperToArm_cover_top_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.34862745098039216" g="0.34862745098039216" b="0.34862745098039216" a="1"/>
+<Specular r="0.024901960784313726" g="0.024901960784313726" b="0.024901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M2.5 x 16.STEP" uid="M2.5 x 16.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="M2.5 x 16.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010950901948750028</Mass>
+<CenterOfMass>0.0076074771167885464 0 0</CenterOfMass>
+<Inertia>1.544691581842117e-10 3.4856932670026603e-09 3.4856526283186683e-09 -2.269016303581127e-15 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M2.5 x 16.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_25GA370-20.4x.STEP" uid="Motor_25GA370-20.4x.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor_25GA370-20.4x.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023190149178394331</Mass>
+<CenterOfMass>0.024354371081160765 -7.2153202015664233e-07 -4.0252716003129009e-13</CenterOfMass>
+<Inertia>1.72501495461279e-06 5.7453707860678929e-06 5.7254899181999359e-06 8.1391735102682345e-10 0 -5.4171285993013923e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_25GA370-20.4x.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

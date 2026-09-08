@@ -1,0 +1,8 @@
+Constrained Instances: 'RackTop-1/rack spur rectangular_am-1', 'spur gear_am-1'
+Constraint Name: RackPinionMate3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'RackTop-2/rack spur rectangular_am-1', 'spur gear_am-2'
+Constraint Name: RackPinionMate4
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/24/26||16:02:19" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="30degreeinclineAssembly" uid="30degreeinclineAssembly" version="197">
+<AssemblyFile name="30degreeinclineAssembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="30DegreeeAngle-2" uid="30DegreeeAngle-2" entityUid="30DegreeeAngle*:*Default">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 6.9829626776862667e-15 2.449293598294703e-16 -1 0 -1 -2.449293598294703e-16</Rotation>
+<Translation>0 0 -0.52500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable-1" uid="Cable-1" entityUid="Cable*:*50_long">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.52000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="SuppoertBase-2" uid="SuppoertBase-2" entityUid="SuppoertBase*:*Default">
+<Transform>
+<Rotation>1 1.043207257363093e-14 -1.0432072573630827e-14 1.0432072573630935e-14 -1 5.6655388976486561e-16 -1.0432072573630822e-14 -5.6655388976497447e-16 -1</Rotation>
+<Translation>2.8367933002648726e-14 1.7493713156445645 -0.010000000000001619</Translation>
+</Transform>
+</Instance>
+<Instance name="30DegreeeAngle-1" uid="30DegreeeAngle-1" entityUid="30DegreeeAngle*:*down">
+<Transform>
+<Rotation>-1 -1.0432072573630827e-14 -1.3005922586277752e-14 1.3005922586277749e-14 4.4408920985013026e-16 -1 1.0432072573630834e-14 -1 -4.4408920984999468e-16</Rotation>
+<Translation>1.2343192698636656e-14 1.7493713156445652 -1.5350000000000017</Translation>
+</Transform>
+</Instance>
+<Instance name="SuppoertBase-1" uid="SuppoertBase-1" entityUid="SuppoertBase*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 1.2246467991473515e-16 0 -1.2246467991473515e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable-4" uid="Cable-4" entityUid="Cable*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.8356424099160001e-14 1.7493713156445645 -1.5300000000000025</Translation>
+</Transform>
+</Instance>
+<Instance name="Cable-3" uid="Cable-3" entityUid="Cable*:*100_long">
+<Transform>
+<Rotation>1 -1.3704669530816275e-14 6.0474230725549108e-15 -1.2089556773672843e-14 -0.50000000000000078 0.86602540378443826 -8.8448804278799949e-15 -0.86602540378443826 -0.50000000000000078</Rotation>
+<Translation>0 0.0036602540378444237 -0.53866025403784445</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SuppoertBase-1</Uid>
+</InstancePath>
+<Position>0 0 0.019999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-1</Uid>
+</InstancePath>
+<Position>0 0 0.5</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>0.049491055546131202 0.52789776941225464 0.090237549903649988</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SuppoertBase-2</Uid>
+</InstancePath>
+<Position>0 0 0.019999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>2.3140387812344581e-14 1.7493713156445647 0.46999999999999753</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>2.3140387812344581e-14 1.7493713156445647 -1.5300000000000025</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>0.46184535522479564 1.0358808410773093 0.38372275349684037</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>2.3140387812344581e-14 1.7493713156445647 -1.5300000000000025</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30DegreeeAngle-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999998934 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30DegreeeAngle-2</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30DegreeeAngle-2</Uid>
+</InstancePath>
+<Position>0 0.013660254037844433 -0.0036602540378443734</Position>
+<Axis>0 0.500000000000001 -0.86602540378443815</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30DegreeeAngle-1</Uid>
+</InstancePath>
+<Position>0 0.0036602540378443127 0.013660254037844322</Position>
+<Axis>0 -0.500000000000001 0.86602540378443815</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-3</Uid>
+</InstancePath>
+<Position>0 1.6653345369377348e-16 2.0000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SuppoertBase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SuppoertBase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SuppoertBase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30degreeinclineAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30DegreeeAngle-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999998934 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>30DegreeeAngle-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999998934 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SuppoertBase-2</Uid>
+</InstancePath>
+<Position>0 0 0.019999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cable-4</Uid>
+</InstancePath>
+<Position>0 0 1.5</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="30DegreeeAngle" uid="30DegreeeAngle*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="30DegreeeAngle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067740591593029942</Mass>
+<CenterOfMass>0 0.0071140824020411867 -0.0013105710058006013</CenterOfMass>
+<Inertia>7.7407829132468007e-07 4.0326863708176575e-07 7.6749708599014125e-07 4.9872171197195421e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="30DegreeeAngle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="30DegreeeAngle" uid="30DegreeeAngle*:*down" version="164">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="30DegreeeAngle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0065318325326267357</Mass>
+<CenterOfMass>2.8180288069120139e-08 0.0018783908806351694 0.0080258287599802285</CenterOfMass>
+<Inertia>6.7191864935737185e-07 6.0944440422091188e-07 4.550124078408694e-07 -1.5472972301551249e-07 -6.958961551160522e-13 -2.7641219612986464e-13</Inertia>
+</MassProperties>
+<GeometryFile name="30DegreeeAngle_down_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable" uid="Cable*:*100_long" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.35342917352885173</Mass>
+<CenterOfMass>0 0 1</CenterOfMass>
+<Inertia>0.11781469460736997 0.11781469460736997 9.940195505498956e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable_100_long_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable" uid="Cable*:*50_long" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.088357293382212931</Mass>
+<CenterOfMass>0 0 0.25</CenterOfMass>
+<Inertia>0.0018420194699009565 0.0018420194699009565 2.485048876374739e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable_50_long_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cable" uid="Cable*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cable.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26507188014663874</Mass>
+<CenterOfMass>0 0 0.75000000000000011</CenterOfMass>
+<Inertia>0.049704705100809307 0.049704705100809307 7.4551466291242153e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cable_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SuppoertBase" uid="SuppoertBase*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SuppoertBase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18358682069415355</Mass>
+<CenterOfMass>0 0 0.012165775401069516</CenterOfMass>
+<Inertia>0.00011507151411586927 0.00011507151411586924 0.00020902329011887323 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SuppoertBase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

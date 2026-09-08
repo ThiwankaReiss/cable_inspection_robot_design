@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/24/26||20:20:16" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="GriperAssembly" uid="GriperAssembly" version="219">
+<AssemblyFile name="GriperAssembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Roller1-1" uid="Roller1-1" entityUid="Roller1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0049999999999999923 -0.0039999999999999879 0.0010000000000000018</Translation>
+</Transform>
+</Instance>
+<Instance name="Teeth-1" uid="Teeth-1" entityUid="Teeth*:*Default">
+<Transform>
+<Rotation>1.0601795777484661e-16 -3.3306690738754696e-16 -1.0000000000000002 0 -1 3.3306690738754696e-16 -1 0 0</Rotation>
+<Translation>0.009999999999999995 0.012000000000000002 0.038000000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="SideSlider-1" uid="SideSlider-1" entityUid="SideSlider*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.05699999999999994 -0.00099999999999998636 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Cameraside1-1" uid="Cameraside1-1" entityUid="Cameraside1*:*Default">
+<Transform>
+<Rotation>1.2254297086468064e-16 1 2.2204460492503126e-16 0 2.2204460492503126e-16 -1 -1 1.2254297086468062e-16 0</Rotation>
+<Translation>0.009000000000000008 0.015999999999999993 -0.012999999999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="back-2" uid="back-2" entityUid="back*:*Default">
+<Transform>
+<Rotation>4.9960036108132044e-16 1 0 0.99999999999999989 -2.7755575615628914e-16 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0.0049999999999999992 -0.0039999999999999957 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Lid-1" uid="Lid-1" entityUid="Lid*:*Default">
+<Transform>
+<Rotation>0 -3.3306690738754696e-16 -1.0000000000000002 0 -1 3.3306690738754696e-16 -1 0 0</Rotation>
+<Translation>0.017999999999999992 -0.0039999999999999879 0.016999999999999994</Translation>
+</Transform>
+</Instance>
+<Instance name="Teeth-2" uid="Teeth-2" entityUid="Teeth*:*Default">
+<Transform>
+<Rotation>0 -3.3306690738754696e-16 -1.0000000000000002 0 -1 3.3306690738754696e-16 -1 0 0</Rotation>
+<Translation>0.0099999999999999846 -0.02 0.038000000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="back-3" uid="back-3" entityUid="back*:*Front">
+<Transform>
+<Rotation>-1.6653345369377348e-16 1 0 -1 -3.3306690738754696e-16 0 0 0 1</Rotation>
+<Translation>0.0049999999999999897 -0.0039999999999999992 0.034000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Cameraside2-1" uid="Cameraside2-1" entityUid="Cameraside2*:*Default">
+<Transform>
+<Rotation>-1 2.7755575615628914e-16 0 -2.7755575615628914e-16 -1 -1.0079870875069866e-16 0 -1.0079870875069865e-16 1</Rotation>
+<Translation>0.00049999999999999004 0.030999999999999989 -0.017999999999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-2" uid="rack spur rectangular_am-2" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 1.5M 20PA 8FW 8PH 100L---SAll">
+<Transform>
+<Rotation>-1 -1.1102230246251565e-16 0 1.1102230246251565e-16 -1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SideSlider-2" uid="SideSlider-2" entityUid="SideSlider*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.056999999999999953 -0.00099999999999998376 -0.011000000000000001</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>back-2</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0.0050000000000000036 0.0079999999999999967</Position>
+<Axis>-0.99999999999999989 -2.0036056147532132e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>0.024999999999999994 -0.01999999999999999 0.0080000000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>back-2</Uid>
+</InstancePath>
+<Position>-0.02 0.0049999999999999966 0.0079999999999999967</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0.020000000000000011 0.0080000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0.020000000000000004 0.0080000000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Teeth-1</Uid>
+</InstancePath>
+<Position>-0.0039999999999999966 0.0040000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000001 -0.019999999999999997 0.0080000000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Teeth-1</Uid>
+</InstancePath>
+<Position>-0.0039999999999999966 -0.0040000000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0.020000000000000004 0.0080000000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Teeth-2</Uid>
+</InstancePath>
+<Position>-0.0039999999999999966 0.0039999999999999966 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0.020000000000000011 0.0080000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Teeth-2</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 0.0040000000000000001 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0.020000000000000004 0.0080000000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>back-3</Uid>
+</InstancePath>
+<Position>0.012000000000000002 0.0050000000000000036 0.0080000000000000002</Position>
+<Axis>-1 -1.6653345369377348e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Teeth-1</Uid>
+</InstancePath>
+<Position>-0.0039999999999999966 0.0040000000000000001 0.030000000000000013</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>back-3</Uid>
+</InstancePath>
+<Position>-0.012000000000000004 0.0049999999999999984 0.0080000000000000002</Position>
+<Axis>-1.6653345369377348e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>back-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Roller1-1</Uid>
+</InstancePath>
+<Position>0 0 0.033000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>back-2</Uid>
+</InstancePath>
+<Position>0.019999999999999983 -0.0049999999999999949 0.0079999999999999967</Position>
+<Axis>5.6898930012039263e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cameraside1-1</Uid>
+</InstancePath>
+<Position>-0.004999999999999994 0.0089999999999999959 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>back-2</Uid>
+</InstancePath>
+<Position>0 0 0.0079999999999999967</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cameraside1-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999958 0.0089999999999999959 0.0049999999999999975</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Lid-1</Uid>
+</InstancePath>
+<Position>0.024999999999999994 -0.01999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cameraside1-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999958 0.0089999999999999959 0.0049999999999999975</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cameraside1-1</Uid>
+</InstancePath>
+<Position>0.005000000000000001 -0.0090000000000000045 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cameraside2-1</Uid>
+</InstancePath>
+<Position>0.017499999999999995 0.015000000000000003 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cameraside1-1</Uid>
+</InstancePath>
+<Position>0.005000000000000001 0.0089999999999999924 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Cameraside2-1</Uid>
+</InstancePath>
+<Position>-0.017500000000000009 0.014999999999999996 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>back-2</Uid>
+</InstancePath>
+<Position>0.0039999999999999905 -0.0049999999999999992 0.0079999999999999967</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0080000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>back-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 -0.0050000000000000044 0.0079999999999999967</Position>
+<Axis>-2.2204460492503136e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0080000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>back-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 -0.0050000000000000044 0</Position>
+<Axis>0.99999999999999989 2.2204460492503141e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0 0.0061250000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0.10000000000000001 0 0</Position>
+<Axis>-1.9319598803439027e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>SideSlider-1</Uid>
+</InstancePath>
+<Position>-0.043000000000000066 0.00099999999999999915 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0.10000000000000001 0 0</Position>
+<Axis>-1.9319598803439027e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>SideSlider-1</Uid>
+</InstancePath>
+<Position>-0.043000000000000066 0.00099999999999999915 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0.10000000000000001 0 -0.0080000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>SideSlider-1</Uid>
+</InstancePath>
+<Position>-0.043000000000000066 0.00099999999999999915 0.0030000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0 0.0094999999999999998 -0.0080000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SideSlider-2</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0.10000000000000001 0 -0.0080000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>SideSlider-2</Uid>
+</InstancePath>
+<Position>-0.043000000000000052 0.00099999999999999915 0.0030000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0.10000000000000001 0 -0.0080000000000000002</Position>
+<Axis>-1.9319598803439027e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>SideSlider-2</Uid>
+</InstancePath>
+<Position>-0.043000000000000052 0.00099999999999999915 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GriperAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GriperAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack spur rectangular_am-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>GriperAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Cameraside1" uid="Cameraside1*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cameraside1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00089999999999999922</Mass>
+<CenterOfMass>0 0 0.0025000000000000005</CenterOfMass>
+<Inertia>2.6174999999999971e-08 9.3749999999999847e-09 3.179999999999996e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cameraside1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cameraside2" uid="Cameraside2*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cameraside2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0020904941689487686</Mass>
+<CenterOfMass>-6.1386786482250716e-05 5.0018863059607093e-05 0.001</CenterOfMass>
+<Inertia>1.5703780031002335e-07 2.1332792064992874e-07 3.6897205818065291e-07 0 0 -1.418034767739813e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Cameraside2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Lid" uid="Lid*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Lid.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016000000000000004</Mass>
+<CenterOfMass>0 0 0.0040000000000000001</CenterOfMass>
+<Inertia>2.2186666666666675e-06 3.4186666666666674e-06 5.466666666666668e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Lid_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Roller1" uid="Roller1*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Roller1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0020799306862172924</Mass>
+<CenterOfMass>0 0 0.016499999999999997</CenterOfMass>
+<Inertia>2.0500316826029193e-07 2.0500316826029193e-07 3.2498916972145204e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Roller1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SideSlider" uid="SideSlider*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SideSlider.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00051599999999999997</Mass>
+<CenterOfMass>0 0 0.0015000000000000002</CenterOfMass>
+<Inertia>5.5900000000000014e-10 3.1841500000000004e-07 3.1819999999999998e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SideSlider_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Teeth" uid="Teeth*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Teeth.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023193317697008066</Mass>
+<CenterOfMass>0 0 0.018285458147367917</CenterOfMass>
+<Inertia>2.7913540436629829e-07 2.7913540436629829e-07 2.3407940566486441e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Teeth_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="back" uid="back*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="back.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0030429203673205114</Mass>
+<CenterOfMass>0 0 0.0040000000000000001</CenterOfMass>
+<Inertia>4.2650138366314372e-08 4.4265013836631457e-07 4.5284245948121021e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="back_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="back" uid="back*:*Front" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="back.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0017629203673205109</Mass>
+<CenterOfMass>0 0 0.0040000000000000001</CenterOfMass>
+<Inertia>2.5156805032981027e-08 1.0131680503298107e-07 1.0766912614787664e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="back_Front_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rack spur rectangular_am" uid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 1.5M 20PA 8FW 8PH 100L---SAll" version="1222">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rack spur rectangular_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.006134675935443896</Mass>
+<CenterOfMass>0.049908754005337022 0.0039542751787302738 -0.0040000000000000001</CenterOfMass>
+<Inertia>6.8446672980386445e-08 5.1250280021421904e-06 5.1280381318111757e-06 0 0 2.0645201360388951e-09</Inertia>
+</MassProperties>
+<GeometryFile name="rack spur rectangular_am_Metric - Rack-spur - rectangular 1.5M 20PA 8FW 8PH 100L---SAll_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

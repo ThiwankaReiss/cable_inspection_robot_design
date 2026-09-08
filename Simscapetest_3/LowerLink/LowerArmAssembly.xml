@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/24/26||10:43:15" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="LowerArmAssembly" uid="LowerArmAssembly" version="494">
+<AssemblyFile name="LowerArmAssembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="DummyBuckConverter-1" uid="DummyBuckConverter-1" entityUid="DummyBuckConverter*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11537265411797509 0.032122614735006695 0.080474028497561897</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-5" uid="Worm Drive Motor JGY370-5" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>1.04744440165294e-14 0 -1 -1 -3.4914813388431334e-15 -1.04744440165294e-14 -3.4914813388431334e-15 1 0</Rotation>
+<Translation>-0.13912734588202644 0.030817494326762888 0.059474028497564821</Translation>
+</Transform>
+</Instance>
+<Instance name="lowerLink-1" uid="lowerLink-1" grounded="true" entityUid="lowerLink*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038872654117975101 0.036122614735006692 0.060474028497561901</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCoverTop-4" uid="MotorCoverTop-4" entityUid="MotorCoverTop*:*Default">
+<Transform>
+<Rotation>1.04744440165294e-14 -1 6.9829626776862667e-15 -1 -1.04744440165294e-14 0 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>-0.10612734588202637 0.048817494326764382 0.057774028497563815</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBuckConverter-2" uid="DummyBuckConverter-2" entityUid="DummyBuckConverter*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.037627345882024904 0.032122614735006688 0.080474028497561911</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCoverTop-1" uid="MotorCoverTop-1" entityUid="MotorCoverTop*:*Default">
+<Transform>
+<Rotation>-1.0910391040513336e-16 1 0 -1.0000000000000002 -1.0910391040513046e-16 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.1838726541179749 0.05032261473500213 0.063174028497561541</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBattery-1" uid="DummyBattery-1" entityUid="DummyBattery*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038872654117975122 0.032122614735006695 0.080474028497561897</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-1" uid="Worm Drive Motor JGY370-1" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999967 -1 0 0 0 -1 0</Rotation>
+<Translation>0.21687265411797541 0.032322614735002982 0.061474028497561603</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 -0.025001000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797495668 0.016122614735006979 0.061474028497560909</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797502607 0.026122614735007793 0.050974028497560948</Position>
+<Axis>-1 4.6599999999999968e-15 -4.7700000000000085e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797513015 0.026122614735007068 0.071974028497562154</Position>
+<Axis>-1 1.2200000000000141e-15 -1.3299999999999879e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 -0.025001000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797513015 0.016122614735006122 0.082474028497561983</Position>
+<Axis>3.4399999999999896e-15 -1 -1.23644440165294e-14</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.038872654117974956 0.02406806928046179 0.061474028497561027</Position>
+<Axis>-3.9499999999999857e-15 5.5700000000000018e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.03887265411797506 0.024068069280462165 0.061474028497561173</Position>
+<Axis>5.6999999999999901e-16 6.0944440165293991e-15 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797509546 0.04612261473500584 0.071974028497562625</Position>
+<Axis>-1 1.2200000000000141e-15 -1.3299999999999879e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797509546 0.056122614735005946 0.061474028497561777</Position>
+<Axis>-3.4399999999999896e-15 1 1.23644440165294e-14</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797490811 0.046122614735006388 0.050974028497561434</Position>
+<Axis>-1 1.2200000000000141e-15 -1.3299999999999879e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.00087265411797490811 0.056122614735006487 0.040474028497560592</Position>
+<Axis>-3.4399999999999896e-15 1 1.23644440165294e-14</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.03887265411797506 0.044068069280461392 0.061474028497561339</Position>
+<Axis>5.6999999999999901e-16 6.0944440165293991e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.038872654117974879 0.044068069280460385 0.061474028497561353</Position>
+<Axis>-5.0999999999999882e-16 -6.7944440165294002e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.040999999999999988 0.016 0.021999999999999999</Position>
+<Axis>0 -1.0842021724855044e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.038872654117975101 0.024068069280461062 0.082474028497562066</Position>
+<Axis>-5.0999999999999882e-16 -6.7944440165294002e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.040999999999999988 0.016 0.021999999999999999</Position>
+<Axis>0 -1.0842021724855044e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.038872654117975067 0.044068069280459837 0.082474028497562538</Position>
+<Axis>-5.0999999999999882e-16 -6.7944440165294002e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.13834265411797508 0.056122614735006168 0.075384028497561539</Position>
+<Axis>0 1 3.4914813388431334e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.091499999999999998 0.020000000000000004 0.0054999999999999979</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.13037265411797508 0.056122614735006467 0.065974028497562134</Position>
+<Axis>0 -1 -3.4914813388431334e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.094 0.023000000000000007 0.0030000000000000096</Position>
+<Axis>1 0 -2.759787348144918e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.12757265411797508 0.056122614735006127 0.087894028497561547</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.059000000000000004 0.023000000000000007 0.0029999999999999957</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.081572654117975096 0.05612261473500639 0.087894028497562102</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.14500000000000002 0 -0.010000000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>-0.0038000000000000048 0.010999999999999996 -0.061799999999999938</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.14500000000000002 0 -0.010000000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>-0.0038000000000000048 0.010999999999999996 -0.033299999999999969</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>0 0.0235 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>0.018000000000000016 0.033000000000000029 -0.025200000000000014</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>0.013999999999999985 0 -0.027999999999999942</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>0.034000000000000016 0.0020000000000000018 0</Position>
+<Axis>-1.5084551965016008e-16 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.11499999999999999 -0.022999999999999996 0.025000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>0.036000000000000018 0 -0.027200000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.11499999999999999 0.023000000000000007 -0.025000000000000001</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>0 0 -0.027200000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.18300099999999997 -0.0015051204082357217 0.010000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-5</Uid>
+</InstancePath>
+<Position>-0.0037999999999999978 0.010999999999999996 -0.033299999999999982</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-5</Uid>
+</InstancePath>
+<Position>0 0.023500000000000007 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MotorCoverTop-4</Uid>
+</InstancePath>
+<Position>0.018000000000000002 0.033000000000000015 -0.025199999999999993</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel10">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-5</Uid>
+</InstancePath>
+<Position>-0.013999999999999985 0 0.011999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>MotorCoverTop-4</Uid>
+</InstancePath>
+<Position>0 0.050000000000000003 0</Position>
+<Axis>1.3877787807814457e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.14500000000000002 -0.0015051204082357217 0.010000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MotorCoverTop-4</Uid>
+</InstancePath>
+<Position>0.035999999999999997 0 -0.027199999999999995</Position>
+<Axis>1.0885749325754235e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel11">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.094 0.023000000000000007 0.0030000000000000096</Position>
+<Axis>-1 0 -1.9712766772463725e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.12457265411797513 0.05612261473500639 0.087894028497562102</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.061499999999999999 0.020000000000000004 0.0054999999999999979</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>-0.022627345882024905 0.05612261473500646 0.065974028497562093</Position>
+<Axis>0 -1 -3.4914813388431334e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.058999999999999997 0.023000000000000007 0.0029999999999999957</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>-0.025427345882024902 0.056122614735006383 0.087894028497562102</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.041000000000000009 0.023000000000000007 0.025000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.037094286563877754 0.05912261473500631 0.064373351360632422</Position>
+<Axis>-1.04744440165294e-14 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.038000000000000013 0.020000000000000004 0.025000000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.023764405412160398 0.056122614735006703 0.085474028497561902</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel14">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 0.025000000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.041364405412160396 0.090722614735006729 0.084274028497562131</Position>
+<Axis>-1 -8.074348295454546e-16 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.027748622744141548 0.056122614735006696 0.084274028497561881</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 -0.025001000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>-0.037429371211994092 0.016122614735006698 0.060304946396453486</Position>
+<Axis>8.0783086520706484e-16 -1 -1.0999548807957691e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 -0.025001000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.11548360044078823 0.016122614735006691 0.060470502299543663</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0 0 0.025000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.085483600440788315 0.016122614735006691 0.083220502299543753</Position>
+<Axis>3.4914813388431334e-15 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.10750000000000001 0.020000000000000004 0.0054999999999999979</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>-0.06862734588202489 0.056122614735006467 0.065974028497562107</Position>
+<Axis>0 -1 -3.4914813388431334e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel16">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.094 0.023000000000000007 0.0030000000000000096</Position>
+<Axis>-1 0 -1.9712766772463725e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>-0.071427345882024887 0.05612261473500639 0.087894028497562116</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident62">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.061499999999999999 0.020000000000000004 0.0054999999999999979</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>-0.022627345882024898 0.05612261473500646 0.065974028497562093</Position>
+<Axis>0 -1 -3.4914813388431334e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel17">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.058999999999999997 0.023000000000000007 0.0029999999999999957</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>-0.025427345882024902 0.056122614735006383 0.087894028497562102</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.045499999999999992 0.020000000000000004 0.0054999999999999979</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.084372654117975093 0.056122614735006467 0.065974028497562093</Position>
+<Axis>0 -1 -3.4914813388431334e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel18">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.059000000000000004 0.023000000000000007 0.0029999999999999957</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.081572654117975096 0.05612261473500639 0.087894028497562102</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel19">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.094 0.023000000000000007 0.0030000000000000096</Position>
+<Axis>1 0 -2.759787348144918e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.12457265411797513 0.05612261473500639 0.087894028497562102</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 0.020000000000000004 -0.025001000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.027748622744141548 0.056122614735006696 0.084274028497561881</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>0.038000000000000013 0.020000000000000004 0.025000000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>LowerArmAssembly</Uid>
+</InstancePath>
+<Position>0.027748622744141548 0.056122614735006696 0.085474028497561888</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 -0.025001000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DummyBuckConverter-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 -0.016 -0.040000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 -0.025001000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DummyBuckConverter-2</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 -0.016 -0.040000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.038000000000000006 -0.02 -0.025001000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DummyBattery-1</Uid>
+</InstancePath>
+<Position>-0.036000000000000004 -0.016000000000000007 -0.040000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel20">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.11500000000000002 -0.022999999999999996 0.025000000000000001</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>MotorCoverTop-4</Uid>
+</InstancePath>
+<Position>0.03599999999999999 0.050000000000000031 -0.027200000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel21">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lowerLink-1</Uid>
+</InstancePath>
+<Position>-0.11500000000000002 0.023000000000000007 -0.002700000000000001</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>MotorCoverTop-4</Uid>
+</InstancePath>
+<Position>0 0 -0.027199999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="DummyBattery" uid="DummyBattery*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DummyBattery.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23999999999999999</Mass>
+<CenterOfMass>0 0 -0.02</CenterOfMass>
+<Inertia>5.2480000000000013e-05 0.00013568000000000003 0.00012416000000000003 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DummyBattery_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DummyBuckConverter" uid="DummyBuckConverter*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DummyBuckConverter.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.080000000000000002</Mass>
+<CenterOfMass>0 0 -0.02</CenterOfMass>
+<Inertia>1.7493333333333334e-05 4.5226666666666672e-05 4.1386666666666675e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DummyBuckConverter_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorCoverTop" uid="MotorCoverTop*:*Default" version="274">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorCoverTop.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011430225692313894</Mass>
+<CenterOfMass>0.018318466152636659 0.028161474539221108 -0.016839353660718873</CenterOfMass>
+<Inertia>3.9452167814167874e-06 3.1828473446408999e-06 5.2850726323199763e-06 -1.7789751962325637e-07 -1.5431840834528647e-08 9.8871569929201097e-08</Inertia>
+</MassProperties>
+<GeometryFile name="MotorCoverTop_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.64313725490196072" g="0.61568627450980395" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.45019607843137249" g="0.43098039215686273" b="0.41999999999999998" a="1"/>
+<Specular r="0.03215686274509804" g="0.0307843137254902" b="0.029999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Worm Drive Motor JGY370" uid="Worm Drive Motor JGY370*:*Default" version="226">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Worm Drive Motor JGY370.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20000000000000001</Mass>
+<CenterOfMass>-0.0011539918768186806 0.011069032432102827 -0.01947737388199346</CenterOfMass>
+<Inertia>9.8155384137076611e-05 0.00010430158856210629 2.2367563479012071e-05 -3.1455682296466443e-07 -6.1400941408117297e-06 -1.5856377872091938e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Worm Drive Motor JGY370_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lowerLink" uid="lowerLink*:*Default" version="523">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lowerLink.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.089400377435666187</Mass>
+<CenterOfMass>0 -0.0042938390675325844 -5.0740261660977626e-05</CenterOfMass>
+<Inertia>4.7678246961645917e-05 0.0007510948754159382 0.00076535470237174225 2.0595066206052112e-07 1.0765817781982195e-05 -1.0598669442155698e-06</Inertia>
+</MassProperties>
+<GeometryFile name="lowerLink_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
