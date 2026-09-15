@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/09/26||11:01:07" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="LowerLinkAssmbly_v2" uid="LowerLinkAssmbly_v2" version="139">
+<AssemblyFile name="LowerLinkAssmbly_v2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Worm Drive Motor JGY370-1" uid="Worm Drive Motor JGY370-1" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>-0.14099999999999979 -0.0053051204082386026 0.015000000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="lowerLink_v2-1" uid="lowerLink_v2-1" entityUid="lowerLink_v2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Worm Drive Motor JGY370-2" uid="Worm Drive Motor JGY370-2" entityUid="Worm Drive Motor JGY370*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999978 -0.99999999999999989 2.2204460492503131e-16 0 -2.2204460492503131e-16 -0.99999999999999989 0</Rotation>
+<Translation>0.14100000000000004 -0.003800000000000003 -0.015000000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCoverTop-2" uid="MotorCoverTop-2" entityUid="MotorCoverTop*:*Default">
+<Transform>
+<Rotation>1.1102230246251565e-16 1 1.384596102298688e-16 -1 1.1102230246251565e-16 -2.5981263359666131e-16 -2.5981263359666131e-16 -1.384596102298688e-16 1</Rotation>
+<Translation>0.10800000000000004 0.014199999999999963 -0.01329999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBattery-1" uid="DummyBattery-1" entityUid="DummyBattery*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>0.020000000000000004 -0.0039999999999999966 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBuckConverter-1" uid="DummyBuckConverter-1" entityUid="DummyBuckConverter*:*Default">
+<Transform>
+<Rotation>3.4914813388431334e-15 0 1 -6.9829626776862667e-15 -1 0 1 -6.9829626776862667e-15 -3.4914813388431334e-15</Rotation>
+<Translation>0.070000000000000021 -0.004000000000000007 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCoverTop-1" uid="MotorCoverTop-1" entityUid="MotorCoverTop*:*Default">
+<Transform>
+<Rotation>9.7144514654701197e-15 -1.0000000000000002 0 -1.0000000000000002 -9.7144514654701197e-15 0 0 0 -1</Rotation>
+<Translation>-0.1079999999999999 0.012694879591761715 0.013299999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="DummyBuckConverter-2" uid="DummyBuckConverter-2" entityUid="DummyBuckConverter*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>-0.030000000000000006 -0.0040000000000000036 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerLinkAssmbly_v2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerLinkAssmbly_v2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LowerLinkAssmbly_v2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>-0.10800000000000001 -0.0015051204082357215 0.026000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>-0.0038000000000000013 0.010999999999999998 -0.061799999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>-0.14299999999999999 0.015694879591761343 0.013299999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000009 0.035000000000000017 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>-0.14299999999999957 -0.026305120408238652 0.013299999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>0.039000000000000014 0.035000000000000017 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>0.10800000000000001 0 -0.026000000000000002</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-2</Uid>
+</InstancePath>
+<Position>-0.0038000000000000009 0.010999999999999998 -0.06179999999999998</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>0.14300000000000002 0.017199999999999979 -0.013299999999999987</Position>
+<Axis>0 1.6680033422853913e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MotorCoverTop-2</Uid>
+</InstancePath>
+<Position>-0.0030000000000000009 0.035000000000000003 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>0.14300000000000002 -0.02480000000000002 -0.013299999999999994</Position>
+<Axis>0 1.6680033422853913e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MotorCoverTop-2</Uid>
+</InstancePath>
+<Position>0.038999999999999993 0.035000000000000031 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-2</Uid>
+</InstancePath>
+<Position>0 0.023499999999999993 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MotorCoverTop-2</Uid>
+</InstancePath>
+<Position>0.018000000000000002 0.033000000000000029 -0.027200999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Worm Drive Motor JGY370-1</Uid>
+</InstancePath>
+<Position>0 0.0235 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MotorCoverTop-1</Uid>
+</InstancePath>
+<Position>0.018000000000000009 0.033000000000000043 -0.027199999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>-0.021999999999999999 -0.020000000000000004 -0.041001000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DummyBuckConverter-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0.016 -0.040000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>-0.021999999999999999 -0.020000000000000004 -0.041001000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DummyBattery-1</Uid>
+</InstancePath>
+<Position>-0.036000000000000004 -0.016000000000000007 -0.040000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerLink_v2-1</Uid>
+</InstancePath>
+<Position>-0.021999999999999999 -0.020000000000000004 -0.041001000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DummyBuckConverter-2</Uid>
+</InstancePath>
+<Position>-0.029999999999999995 -0.016 -0.040000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="DummyBattery" uid="DummyBattery*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DummyBattery.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23999999999999999</Mass>
+<CenterOfMass>0 0 -0.02</CenterOfMass>
+<Inertia>5.2480000000000013e-05 0.00013568000000000003 0.00012416000000000003 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DummyBattery_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DummyBuckConverter" uid="DummyBuckConverter*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DummyBuckConverter.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.080000000000000002</Mass>
+<CenterOfMass>0 0 -0.02</CenterOfMass>
+<Inertia>1.7493333333333334e-05 4.5226666666666672e-05 4.1386666666666675e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DummyBuckConverter_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorCoverTop" uid="MotorCoverTop*:*Default" version="274">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorCoverTop.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011430225692313896</Mass>
+<CenterOfMass>0.018318466152636655 0.028161474539221101 -0.01683935366071887</CenterOfMass>
+<Inertia>3.9452167814167882e-06 3.1828473446408999e-06 5.2850726323199771e-06 -1.7789751962325637e-07 -1.5431840834528697e-08 9.8871569929201111e-08</Inertia>
+</MassProperties>
+<GeometryFile name="MotorCoverTop_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.64313725490196072" g="0.61568627450980395" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.45019607843137249" g="0.43098039215686273" b="0.41999999999999998" a="1"/>
+<Specular r="0.03215686274509804" g="0.0307843137254902" b="0.029999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Worm Drive Motor JGY370" uid="Worm Drive Motor JGY370*:*Default" version="226">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Worm Drive Motor JGY370.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20000000000000001</Mass>
+<CenterOfMass>-0.0011539918768186806 0.011069032432102827 -0.01947737388199346</CenterOfMass>
+<Inertia>9.8155384137076611e-05 0.00010430158856210629 2.2367563479012071e-05 -3.1455682296466443e-07 -6.1400941408117297e-06 -1.5856377872091938e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Worm Drive Motor JGY370_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lowerLink_v2" uid="lowerLink_v2*:*Default" version="965">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lowerLink_v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.094500967989907619</Mass>
+<CenterOfMass>0 -0.0047259127573096504 -4.5585740656684433e-05</CenterOfMass>
+<Inertia>7.8742090712921047e-05 0.00044126170300257746 0.00042453120587071486 3.329920967172603e-07 5.0178052451416081e-05 -7.6750682282196546e-07</Inertia>
+</MassProperties>
+<GeometryFile name="lowerLink_v2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59019607843137256" g="0.57098039215686269" b="0.52705882352941169" a="1"/>
+<Specular r="0.042156862745098042" g="0.040784313725490198" b="0.037647058823529415" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
